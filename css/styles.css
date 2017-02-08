@@ -1,10 +1,52 @@
 body {
-  background-color: blue;
+  background-color: lightblue;
+  font-family: sans-serif;
+}
 
+h1 {
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+  line-height: 15px;
 }
 
 p {
-  color: pink;
+  text-align: center;
+  color: salmon;
   font-size: 25px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 
+img {
+  display: block;
+  margin: auto;
+}
+
+ul {
+  text-align: center;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.flashy {
+  color: crimson;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.best {
+  color: #ff8816;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.safety {
+  color: yellow;
+  font-size: 8px;
+  font-weight: bold;
 }
